@@ -20,4 +20,4 @@ def mention_action_create_doc(mention_input_name_doc, mention_label_name_doc, me
     mention_type.pack()
     mention_label_source.pack()
     mention_source.pack()
-    mention_btn_add_mention.pack
+    mention_btn_add_mention.pack()
