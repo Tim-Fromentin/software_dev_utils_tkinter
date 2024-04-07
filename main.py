@@ -22,7 +22,7 @@ mention_frame_widget = Frame(main, bg="white")
 mention_content(mention_frame_widget)
 compressor_frame_widget = Frame(main, bg="white")
 compressor_content(compressor_frame_widget)
-db_generator_frame_widget = Frame(main, bg="red")
+db_generator_frame_widget = Frame(main, bg="white")
 db_generator_content(db_generator_frame_widget)
 
 
