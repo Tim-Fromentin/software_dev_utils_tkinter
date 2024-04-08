@@ -2,6 +2,7 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import *
+# TODO create a action for loading old file
 
 
 file_path = None  # Déclaration de la variable globale file_path initialisée à None

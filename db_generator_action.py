@@ -2,6 +2,7 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import *
+# NOTE finish
 
 def db_generator_action(dbg_input_servername, dbg_input_name, dbg_input_password):
     name = dbg_input_name.get()

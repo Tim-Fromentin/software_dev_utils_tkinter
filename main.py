@@ -6,26 +6,28 @@ from mention_content import mention_content
 from compressor_content import compressor_content
 from db_generator_content import db_generator_content
 
-
+# window
 win = tk.Tk()
 win.geometry("800x500")
 win.title("Utils")
 win.configure(bg="white")
 win.iconbitmap("./ressource/img/favicon.ico")
-
+# main frame
 main = Frame(win, bg="white")
 main.pack(fill=tk.BOTH, expand=True)
 
+# all fram widget
 home_frame_widget = Frame(main, bg="white", padx=50)
 home_content(home_frame_widget)
+
 mention_frame_widget = Frame(main, bg="white")
 mention_content(mention_frame_widget)
+
 compressor_frame_widget = Frame(main, bg="white")
 compressor_content(compressor_frame_widget)
+
 db_generator_frame_widget = Frame(main, bg="white")
 db_generator_content(db_generator_frame_widget)
-
-
 
 
 
