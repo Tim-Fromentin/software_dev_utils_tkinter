@@ -1,6 +1,5 @@
 import tkinter as tk
-from tkinter import Button
-from tkinter import Label
+from tkinter import Button, Label, Entry
 class MenuButton(tk.Button):
     def __init__(self, master=None, **kwargs):
         super().__init__(master, **kwargs)
@@ -40,6 +39,12 @@ class Paragraph(tk.Label):
         super().__init__(master, **kwargs)
         self.config(
             padx=10, pady=10, wraplength=500, bg="white", fg="#191919"
+        )
+class InputPrimary(tk.Entry):
+    def __init__(self, master=None, **kwargs):
+        super().__init__(master, **kwargs)
+        self.config(
+            bg="#F7F7F7", fg="#191919"
         )
 
 #FFFFFF

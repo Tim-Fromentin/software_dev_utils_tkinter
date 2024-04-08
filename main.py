@@ -5,6 +5,7 @@ from home_content import home_content
 from mention_content import mention_content
 from compressor_content import compressor_content
 from db_generator_content import db_generator_content
+from qrcode_generator_content import qrcode_generator_content
 
 # window
 win = tk.Tk()
@@ -29,12 +30,16 @@ compressor_content(compressor_frame_widget)
 db_generator_frame_widget = Frame(main, bg="white")
 db_generator_content(db_generator_frame_widget)
 
+qrcode_generator_frame_widget = Frame(main, bg="white")
+qrcode_generator_content(qrcode_generator_frame_widget)
+
 
 
 def home_frame_action():
     mention_frame_widget.pack_forget()
     compressor_frame_widget.pack_forget()
     db_generator_frame_widget.pack_forget()
+    qrcode_generator_frame_widget.pack_forget()
     home_frame_widget.pack(fill=tk.BOTH, expand=True)
     
 
@@ -42,21 +47,31 @@ def mention_frame_action():
     home_frame_widget.pack_forget()
     compressor_frame_widget.pack_forget()
     db_generator_frame_widget.pack_forget()
+    qrcode_generator_frame_widget.pack_forget()
     mention_frame_widget.pack(fill=tk.BOTH, expand=True)
 
 def compressor_frame_action():
     home_frame_widget.pack_forget()
     mention_frame_widget.pack_forget()
     db_generator_frame_widget.pack_forget()
+    qrcode_generator_frame_widget.pack_forget()
     compressor_frame_widget.pack(fill=tk.BOTH, expand=True)
 
 def db_generator_frame_action():
     home_frame_widget.pack_forget()
     mention_frame_widget.pack_forget()
     compressor_frame_widget.pack_forget()
+    qrcode_generator_frame_widget.pack_forget()
     db_generator_frame_widget.pack(fill=BOTH, expand=True)
 
+def qrcode_generator_action():
+    home_frame_widget.pack_forget()
+    mention_frame_widget.pack_forget()
+    compressor_frame_widget.pack_forget()
+    db_generator_frame_widget.pack_forget()
+    qrcode_generator_frame_widget.pack(fill=BOTH, expand=True)
 
-menu_option_frame(main, home_frame_action, mention_frame_action, compressor_frame_action, db_generator_frame_action)
+
+menu_option_frame(main, home_frame_action, mention_frame_action, compressor_frame_action, db_generator_frame_action, qrcode_generator_action)
 home_frame_widget.pack()
 win.mainloop()
