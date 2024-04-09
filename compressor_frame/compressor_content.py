@@ -2,8 +2,7 @@ import tkinter as tk
 from tkinter import *
 from tkinter import filedialog
 from PIL import Image
-from compressor_action import compressor_action
-from compressor_action import process_action
+from compressor_frame.compressor_action import compressor_action, process_action
 from style import Title, BtnPrimary
 
 

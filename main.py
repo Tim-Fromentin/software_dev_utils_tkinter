@@ -2,10 +2,10 @@ import tkinter as tk
 from tkinter import *
 from menu_option import menu_option_frame
 from home_content import home_content
-from mention_content import mention_content
-from compressor_content import compressor_content
-from db_generator_content import db_generator_content
-from qrcode_generator_content import qrcode_generator_content
+from mention_frame.mention_content import mention_content
+from compressor_frame.compressor_content import compressor_content
+from db_generator_frame.db_generator_content import db_generator_content
+from qrcode_generator_frame.qrcode_generator_content import qrcode_generator_content
 
 # window
 win = tk.Tk()

@@ -2,7 +2,7 @@
 import tkinter as tk
 from tkinter import *
 from style import Title, BtnPrimary, TitleInput
-from db_generator_action import db_generator_action
+from db_generator_frame.db_generator_action import db_generator_action
 
 def db_generator_content(db_generator_frame_widget):
     dbg_title = Title(db_generator_frame_widget, text="DataBase generator").pack()
