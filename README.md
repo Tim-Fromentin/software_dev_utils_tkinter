@@ -11,6 +11,8 @@
 - [x] Qrcode generator
 - [x] Image compressor
 - [ ] ReadMe generator
+- [ ] Site map xml generator
+- [ ] Robots generator
 - [~] Style
 
 ## Software create with tkinter
