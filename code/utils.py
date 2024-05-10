@@ -12,7 +12,7 @@ win = tk.Tk()
 win.geometry("800x500")
 win.title("Utils")
 win.configure(bg="white")
-win.iconbitmap("./code/ressource/img/favicon.ico")
+# win.iconbitmap("./code/ressource/img/favicon.ico")
 # main frame
 main = Frame(win, bg="white")
 main.pack(fill=tk.BOTH, expand=True)
