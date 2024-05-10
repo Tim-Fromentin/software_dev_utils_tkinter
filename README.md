@@ -34,3 +34,7 @@ This code using :
 - [Linkedin](https://www.linkedin.com/in/tim-fromentin-339b03208)
 
 ***Royalty-free code***
+
+# List modif
+- Creation code, frame, content etc.
+- 10/05/24 convert py to executable
