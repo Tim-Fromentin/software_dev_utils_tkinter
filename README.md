@@ -1,3 +1,9 @@
+![python](https://img.shields.io/badge/Python-red?style=flat&logo=python)
+![tkinter](https://img.shields.io/badge/Tkinter-blue?style=flat&logo=tkinter)
+![open source](https://img.shields.io/badge/project-open%20source-BrightGreen)
+![version](https://img.shields.io/badge/Version-0.3.4-blue?style=flat)
+
+
 # Tools for web developers.
 - Creation of a tool to generate mentions for all images and videos that are not protected by copyright.
 - Database connection generator
